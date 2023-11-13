@@ -21,6 +21,7 @@
         "command": "-editor.action.blockComment",
         "when": "vim.active && editorTextFocus && !editorReadonly"
     },
+    // vim-fugitive keybinds
     {
         "key": "s",
         "command": "git.stageSelectedRanges",
@@ -36,6 +37,7 @@
         "command": "git.commit",
         "when": "isInDiffEditor && vim.active && !operationInProgress"
     },
+    // My own binds in LSP-zero
     {
         "key": "ctrl+j",
         "command": "selectNextSuggestion",
@@ -51,6 +53,7 @@
         "command": "acceptSelectedSuggestion",
         "when": "vim.active && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
+    // Misc.
     {
         "key": "shift+space ctrl+n",
         "command": "explorer.newFile",
