@@ -15,8 +15,10 @@
     "editor.indentSize": "tabSize",
     "editor.insertSpaces": false,
     "editor.detectIndentation": true,
+    "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
+        "source.fixAll.eslint": true,
+        "source.fixAll": "always"
     },
     // VIM
     "vim.useCtrlKeys": true,
