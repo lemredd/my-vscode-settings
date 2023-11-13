@@ -51,4 +51,8 @@
         "command": "explorer.newFile",
         "when": "vim.active"
     },
+    {
+        "key": "shift+space ctrl+alt+v",
+        "command": "toggleVim"
+    }
 ]
