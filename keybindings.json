@@ -46,4 +46,9 @@
         "command": "acceptSelectedSuggestion",
         "when": "vim.active && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
     },
+    {
+        "key": "shift+space ctrl+n",
+        "command": "explorer.newFile",
+        "when": "vim.active"
+    },
 ]
