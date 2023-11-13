@@ -32,6 +32,11 @@
         "when": "vim.active && isInDiffEditor && !operationInProgress"
     },
     {
+        "key": "c c",
+        "command": "git.commit",
+        "when": "isInDiffEditor && vim.active && !operationInProgress"
+    },
+    {
         "key": "ctrl+j",
         "command": "selectNextSuggestion",
         "when": "vim.active && suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus || suggestWidgetVisible && textInputFocus && !suggestWidgetHasFocusedSuggestion"
