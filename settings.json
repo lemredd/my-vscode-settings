@@ -3,11 +3,10 @@
     "security.workspace.trust.untrustedFiles": "open",
     // Workbench
     "workbench.activityBar.location": "hidden",
-    "workbench.colorTheme": "One Dark Pro Darker",
+    "workbench.colorTheme": "One Dark Pro Mix",
     "workbench.iconTheme": "material-icon-theme",
     // Window
     "window.commandCenter": false,
-    "window.zoomLevel": 2,
     // Terminal
     "terminal.external.windowsExec": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
     // Editor
@@ -20,6 +19,8 @@
         "source.fixAll.eslint": true,
         "source.fixAll": "always"
     },
+    // Files
+    "files.eol": "\n",
     // VIM
     "vim.useCtrlKeys": true,
     "vim.hlsearch": false,
@@ -169,9 +170,6 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "[typescript]": {
-        "editor.defaultFormatter": "vscode.typescript-language-features"
-    },
     // ESLint
     "eslint.validate": [
         "typescript",
@@ -182,4 +180,5 @@
     "gitlens.advanced.messages": {
         "suppressRebaseSwitchToTextWarning": true
     },
+    "window.zoomLevel": 2,
 }
